@@ -462,7 +462,7 @@ $grid-breakpoints: (
   md: 768px,
   lg: 992px,
   xl: 1200px,
-  xxl: 1400px
+  // xxl: 1400px
 );
 // scss-docs-end grid-breakpoints
 
@@ -479,8 +479,8 @@ $container-max-widths: (
   sm: 540px,
   md: 720px,
   lg: 960px,
-  xl: 1140px,
-  xxl: 1320px
+  xl: 1170px,
+  // xxl: 1320px
 ) ;
 // scss-docs-end container-max-widths
 
@@ -492,7 +492,7 @@ $container-max-widths: (
 // Set the number of columns and specify the width of the gutters.
 
 $grid-columns:                12;
-$grid-gutter-width:           1.5rem;
+$grid-gutter-width:           30px;
 $grid-row-columns:            6;
 
 $gutters: $spacers;
