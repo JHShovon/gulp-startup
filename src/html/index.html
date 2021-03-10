@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+	<head>
+		
+		@@include('styles.html',{
+			"title" : "Harmic - Organic Food HTML Template"
+		})
+
+	</head>
+
+	<body>
+
+		<div class="main-wrapper">
+			@@include('header.html',{
+				"headerNo" : "one",
+				"headerStyle" : "header-sticky",
+				"headerLogo" : "dark",
+				"customContainer" : "container",
+				"currentHomePages" : "active",
+				"currentPages" : "",
+				"currentCollectionPages" : "",
+				"currentShopPages" : "",
+				"currentElementPages" : "",
+				"currentBlockPages" : ""
+			})
+			@@include('slider.html',{
+				"sliderNo" : "one"
+			})
+			@@include('shipping.html',{
+				"shippingNo" : "one",
+				"customContainer" : "container",
+				"sectionSpace" : "section-space-top-100"
+			})
+			@@include('product.html',{
+				"productStyle" : "productTab",
+				"customContainer" : "container",
+				"sectionSpace" : "section-space-top-100"
+			})
+			@@include('banner.html',{
+				"bannerNo" : "one",
+				"customContainer" : "container",
+				"sectionSpace" : "section-space-top-100"
+			})
+			@@include('product.html',{
+				"productStyle" : "productSlider",
+				"customContainer" : "container",
+				"sectionSpace" : "section-space-y-axis-100"
+			})
+			@@include('banner.html',{
+				"bannerNo" : "two",
+				"customContainer" : "container",
+				"sectionSpace" : ""
+			})
+			@@include('product.html',{
+				"productStyle" : "productListSlider",
+				"customContainer" : "container",
+				"sectionSpace" : "section-space-top-100"
+			})
+			@@include('blog.html',{
+				"blogStyle" : "latestBlog",
+				"customContainer" : "container",
+				"sectionSpace" : "section-space-y-axis-100"
+			})
+			@@include('footer.html',{
+				"footerNo" : "one",
+				"customContainer" : "container",
+				"sectionSpace" : "section-space-y-axis-100"
+			})
+			@@include('scroll-to_top.html',{
+				"scrollToTop" : "one"
+			})
+		</div>
+
+		@@include('scripts.html')
+
+	</body>
+
+</html>

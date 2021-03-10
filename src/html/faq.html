@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+	<head>
+		
+		@@include('styles.html',{
+			"title" : "Harmic - FAQ"
+		})
+
+	</head>
+
+	<body>
+
+		<div class="main-wrapper">
+			@@include('header.html',{
+				"headerNo" : "one",
+				"headerStyle" : "header-sticky",
+				"headerLogo" : "dark",
+				"customContainer" : "container",
+				"currentHomePages" : "active",
+				"currentPages" : "",
+				"currentCollectionPages" : "",
+				"currentShopPages" : "",
+				"currentElementPages" : "",
+				"currentBlockPages" : ""
+			})
+			@@include('faq.html',{
+				"faqNo" : "one",
+				"customContainer" : "container",
+				"sectionSpace" : "section-space-y-axis-100"
+			})
+			@@include('footer.html',{
+				"footerNo" : "one",
+				"customContainer" : "container",
+				"sectionSpace" : "section-space-y-axis-100"
+			})
+			@@include('scroll-to_top.html',{
+				"scrollToTop" : "one"
+			})
+		</div>
+
+		@@include('scripts.html')
+
+	</body>
+
+</html>
