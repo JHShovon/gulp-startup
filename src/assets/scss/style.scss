@@ -31,33 +31,9 @@
     23. 404
 -----------------------------------------------------------------------------------*/
 @import "./bootstrap/functions";
-@import "variabls";
+@import "base/variabls";
 @import "./bootstrap/bootstrap";
 
-@import "common";
-@import "header";
-@import "slider";
-@import "navigation";
-@import "offcanvas";
-@import "animation";
-@import "footer";
-@import "shipping";
-@import "product";
-@import "banner";
-@import "blog";
-@import "testimonial";
-@import "brand";
-@import "breadcrumb";
-@import "about";
-@import "shop";
-@import "sidebar";
-@import "contact";
-@import "my-account";
-@import "login-register";
-@import "cart";
-@import "wishlist";
-@import "compare";
-@import "checkout";
-@import "faq";
-@import "privacy-policy";
-@import "404";
+
+// Default
+@import "base/common"
