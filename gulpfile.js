@@ -34,7 +34,7 @@ var gulp = require('gulp'),
 
         'js': './src/assets/js/**/*',
         'pluginsJs': './src/assets/js/plugins/**/*',
-        'vendorJs': ['./src/assets/js/vendor/modernizr-3.11.2.min.js', './src/assets/js/vendor/jquery-3.5.1.min.js', './src/assets/js/vendor/jquery-migrate-3.3.0.min.js', './src/assets/js/vendor/bootstrap.bundle.min.js'],
+        'vendorJs': './src/assets/js/vendor/**/*',
         'mainJs': './src/assets/js/main.js',
 
         'media': './src/assets/media/**/*',
